@@ -1,0 +1,65 @@
+{
+    "Id": 1,
+    "name": "Master node",
+    "parentId": 0,
+    "childGroups": [
+        {
+            "Id": 2,
+            "name": "Fresh Food",
+            "parentId": 1,
+            "childGroups": [
+                {
+                    "Id": 4,
+                    "name": "Bakery",
+                    "parentId": 2,
+                    "childGroups": [
+                        {
+                            "Id": 6,
+                            "name": "Cakes",
+                            "parentId": 4,
+                            "childGroups": []
+                        }
+                    ]
+                },
+                {
+                    "Id": 5,
+                    "name": "Fruits",
+                    "parentId": 2,
+                    "childGroups": []
+                },
+                {
+                    "Id": 7,
+                    "name": "Vegetables",
+                    "parentId": 2,
+                    "childGroups": []
+                }
+            ]
+        },
+        {
+            "Id": 3,
+            "name": "Drinks",
+            "parentId": 1,
+            "childGroups": [
+                {
+                    "Id": 8,
+                    "name": "Coffee",
+                    "parentId": 3,
+                    "childGroups": [
+                        {
+                            "Id": 9,
+                            "name": "Local coffee",
+                            "parentId": 8,
+                            "childGroups": []
+                        },
+                        {
+                            "Id": 10,
+                            "name": "Imported coffee",
+                            "parentId": 8,
+                            "childGroups": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
