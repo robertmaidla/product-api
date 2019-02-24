@@ -21,7 +21,7 @@ namespace ProductApi.Models
         
         
         // [NotMapped]
-        public IEnumerable<StoreItem> store { get; set;
+        public IEnumerable<StoreItem> stores { get; set;
             // get { return _stores.Split(delimeter); }
             // set {
             //     _stores = string.Join($"{delimeter}", value);

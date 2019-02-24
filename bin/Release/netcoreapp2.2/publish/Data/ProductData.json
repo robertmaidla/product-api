@@ -6,7 +6,7 @@
         "price": 0.8,
         "priceWithVAT": 0.96,
         "VATRate": 20,
-        "store": [
+        "stores": [
             {"name":"Pirita Selver"}
         ]
     },
