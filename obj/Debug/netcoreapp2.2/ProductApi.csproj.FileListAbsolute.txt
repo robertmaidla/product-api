@@ -1,0 +1,14 @@
+C:\Users\rober\Portfolio\product-rest-api-net\ProductApi\ProductApi\bin\Debug\netcoreapp2.2\ProductApi.deps.json
+C:\Users\rober\Portfolio\product-rest-api-net\ProductApi\ProductApi\bin\Debug\netcoreapp2.2\ProductApi.runtimeconfig.json
+C:\Users\rober\Portfolio\product-rest-api-net\ProductApi\ProductApi\bin\Debug\netcoreapp2.2\ProductApi.runtimeconfig.dev.json
+C:\Users\rober\Portfolio\product-rest-api-net\ProductApi\ProductApi\bin\Debug\netcoreapp2.2\ProductApi.dll
+C:\Users\rober\Portfolio\product-rest-api-net\ProductApi\ProductApi\bin\Debug\netcoreapp2.2\ProductApi.pdb
+C:\Users\rober\Portfolio\product-rest-api-net\ProductApi\ProductApi\obj\Debug\netcoreapp2.2\ProductApi.csprojAssemblyReference.cache
+C:\Users\rober\Portfolio\product-rest-api-net\ProductApi\ProductApi\obj\Debug\netcoreapp2.2\ProductApi.csproj.CoreCompileInputs.cache
+C:\Users\rober\Portfolio\product-rest-api-net\ProductApi\ProductApi\obj\Debug\netcoreapp2.2\ProductApi.RazorAssemblyInfo.cache
+C:\Users\rober\Portfolio\product-rest-api-net\ProductApi\ProductApi\obj\Debug\netcoreapp2.2\ProductApi.RazorAssemblyInfo.cs
+C:\Users\rober\Portfolio\product-rest-api-net\ProductApi\ProductApi\obj\Debug\netcoreapp2.2\ProductApi.AssemblyInfoInputs.cache
+C:\Users\rober\Portfolio\product-rest-api-net\ProductApi\ProductApi\obj\Debug\netcoreapp2.2\ProductApi.AssemblyInfo.cs
+C:\Users\rober\Portfolio\product-rest-api-net\ProductApi\ProductApi\obj\Debug\netcoreapp2.2\ProductApi.RazorTargetAssemblyInfo.cache
+C:\Users\rober\Portfolio\product-rest-api-net\ProductApi\ProductApi\obj\Debug\netcoreapp2.2\ProductApi.dll
+C:\Users\rober\Portfolio\product-rest-api-net\ProductApi\ProductApi\obj\Debug\netcoreapp2.2\ProductApi.pdb
