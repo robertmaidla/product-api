@@ -18,7 +18,6 @@ namespace ProductApi.Controllers
             if (_context.ProductItems.Count() == 0) {
                 string mockData = System.IO.File.ReadAllText("Data/ProductData.json");
                 _context.ProductItems.AddRange(JsonConvert.DeserializeObject<IEnumerable<ProductItem>>(mockData));
-                // _context.Add(new ProductItem {name = "test", groupName = "Test"});
                 _context.SaveChanges();
             }
         }

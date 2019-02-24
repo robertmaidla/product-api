@@ -1,4 +1,6 @@
+using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ProductApi.Models
 {
@@ -10,5 +12,9 @@ namespace ProductApi.Models
         }
 
         public DbSet<ProductItem> ProductItems { get; set; }
+
+        // protected override void OnModelCreating(ModelBuilder modelBuilder) => modelBuilder.Entity<ProductItem>()
+        //         .Property<string[]>("stores")
+        //         .HasField("_stores");
     }
 }

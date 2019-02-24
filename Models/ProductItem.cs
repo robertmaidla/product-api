@@ -17,26 +17,22 @@ namespace ProductApi.Models
         public double price { get; set; }
         public double priceWithVAT { get; set; }
         public double VATRate { get; set; }
-        public List<tempShop> stores { get; set; }
+
+        
+        
+        // [NotMapped]
+        public IEnumerable<StoreItem> store { get; set;
+            // get { return _stores.Split(delimeter); }
+            // set {
+            //     _stores = string.Join($"{delimeter}", value);
+            // }
+        }
+
+        // private string _stores;
+        // private static readonly char delimeter = ';';
 
         public ProductItem() {
             this.addedDate = DateTime.Now;
-            this.stores = new List<tempShop>();
-        }
-
-        public ProductItem(ProductItem inpProduct) {
-            this.name = inpProduct.name;
-            this.groupName = inpProduct.groupName;
-            this.addedDate = DateTime.Now;
-            this.price = inpProduct.price;
-            this.priceWithVAT = inpProduct.priceWithVAT;
-            this.VATRate = inpProduct.VATRate;
-            this.stores = new List<tempShop>(inpProduct.stores);
-        }
-
-        public class tempShop {
-            public long Id { get; set; }
-            public string name { get; set; }
         }
 
         public bool ValidateNewItem() {
